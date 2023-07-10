@@ -1,1 +1,106 @@
 <div id="app"></div>
+<section id="inicio">
+    <div class="contenido">
+        <header>
+            <div class="contenido-header">
+                <h1>[ICAD]</h1>
+                <nav id="nav" class="">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar(this)">Datos personales</a></li>
+                        <li><a href="#servicios" onclick="seleccionar(this)">Cursos</a></li>
+                        <li><a href="#portfolio" onclick="seleccionar(this)">Certificados</a></li>
+                        <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Icono del menu responsive -->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="redes">
+                    <a href="https://www.facebook.com/profile.php?id=100004643621234" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://studio.youtube.com/channel/UCSegeyPJokYQCWIKtHMAreg/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/alexiniga/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+            </div>
+        </header>
+        <div class="presentacion">
+            <h2>Hola Bienvenidos <span></span>,A mi pagina Web</h2>
+            <p class="descripcion">A continuacion detallare mi información personal,educativa y profesional </p>
+            <a href="#portfolio">Ir a certificados </a>
+        </div>
+    </div>
+</section>
+
+<!-- Sobre mi -->
+<section id="Sobremi">
+    <div class="contenedor-foto">
+
+        <img src="img/foto.perfil.jpeg" alt="">
+    </div>
+    <div class="Sobremi">
+        <p class="titulo-seccion">Sobre mi</p>
+        <h2>Hola, Soy <span>Alex David Iñiga Calderón </span> </h2>
+        <p>Soy una persona alegre, sonriente, optimista y un poco alocado.Doy todo de mi cuando se trata de hacer un importante trabajo como el reflexionar y la concentración, Me gusta trabajar en equipo, tengo habitos proactivos, no me gusta dejar las cosas a medias.</p>
+        <p>Tambien me gusta resolver problemas de manera tranquila y con mucha comunicación</p>
+        <a href="Doc/Curriculum.pdf" target="_blank">Descargar CV</a>
+    </div>
+</section>
+<!-- Datos -->
+<section id="Datos">
+<div class="contenedor-foto2">
+    <img src="" alt="">
+</div>
+<div class="Datos">
+    <div class="columna-izquierda">
+        <h3 class="titulo-seccion"><span>Datos personales</span></h3>
+        <p><span class="texto-negrita">Cedula:</span> 0952547081.</p>
+        <p><span class="texto-negrita">Celular:</span> 0984821535.</p>
+        <p><span class="texto-negrita">Fecha de nacimiento:</span> 30/01/2000.</p>
+        <p><span class="texto-negrita">Correo Institucional:</span> alex.inigac@ug.edu.ec.</p>
+        <p><span class="texto-negrita">Dirección:</span> Guasmo Norte Mz 93 Solar 4.</p>
+        <p><span class="texto-negrita">Estado civil:</span> Soltero.</p>
+    </div>
+    <div class="columna-derecha">
+        <h4 class="titulo-seccion"><span>Formación Académica y Estudios </span></h4>
+        <p><span class="texto-negrita">Primario :</span> Escuela de educación básica Santo Tomas de Aquino</p>
+        <p><span class="texto-negrita">Secundario :</span> Unidad educativa Carlos Estarellas Avilés: Bachillerato Técnico en Aplicaciones
+            Informáticas</p>
+        <p><span class="texto-negrita">Superior:</span> Estudiantes de la Universidad de Guayaquil carrera Ingeniería en telemática</p>
+    </div>
+</div>
+</section>
+<!-- Servicios-->
+<section id="servicios">
+<h3 class="titulo-seccion">Cursos realizados</h3>
+<div class="fila">
+    <div class="servicio">
+        <span class="icono"> <i class="fa-solid fa-computer"></i></span>
+        <h4>Manejo de herramientas de office</h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Word</li>
+            <li>Excel</li>
+            <li>Power point</li>
+        </ul>
+        <p>Habilidades avanzadas en paquete Office (Word, Excel, PowerPoint) con experiencia demostrada en la creación de documentos, hojas de cálculo y presentaciones efectivas.</p>
+    </div>
+    <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+        <h4>Ensamblaje y reparación de computadora</h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Laptop</li>
+            <li>Dipositivos moviles</li>
+            <li>Tablet</li>
+        </ul>
+        <p>Amplia experiencia en el ensamblaje y reparación de computadoras, incluyendo el diagnóstico y solución de problemas de hardware y software</p>
+    </div>
+    <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+        <h4>Taller Electricidad </h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Instalación</li>
+            <li>- Manejo de herramientas</li>
